@@ -11,7 +11,7 @@ checkButton.addEventListener("click", function () {
   const name = nameInput.value.trim();
 
   if (name === "") {
-    alert("Masukin namanya kocak!");
+    alert("Input nama tidak boleh kosong!");
     return;
   }
 
